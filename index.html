@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="text">
+        <span class="casio">CASIO</span> 
+        <span class="model">fe-991ex</span>
+    </div>
+    
+    <div class="buttons">      
+        <div class="screen"><span class="calcs">0</span></div>
+        <button onclick="calc(1);">1</button>
+        <button onclick="calc(2);">2</button>
+        <button onclick="calc(3);">3</button>
+        <button onclick="calc(' + ');" class="adj">+</button>
+        <br>
+        <button onclick="calc(4);">4</button>
+        <button onclick="calc(5);">5</button>
+        <button onclick="calc(6);">6</button>
+        <button onclick="calc(' - ');" class="adj">-</button>
+        <br>
+        <button onclick="calc(7);">7</button>
+        <button onclick="calc(8);">8</button>
+        <button onclick="calc(9);">9</button>
+        <button onclick="calc(' * ')" class="adj">*</button>
+        <br>
+        <button onclick="calc(0);" class="zero">0</button>
+        <button onclick="calc('/')">÷</button>
+        <button onclick="equal();" class="adj">=</button>
+        <br>
+        <button onclick="calc('.');" style="width:22px;">.</button>
+        <button onclick="calc('/100');" class="adj2">%</button>
+        <button onclick="clear()" class="clear">Clear</button>    
+               
+    </div>
+</body>
+</html>
