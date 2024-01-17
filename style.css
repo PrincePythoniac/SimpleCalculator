@@ -1,11 +1,11 @@
 @font-face {
     font-family:'Michroma';
-    src:url('./Michroma-Regular.ttf');
+    src:url('fonts/Michroma-Regular.ttf');
 }
 
 @font-face {
     font-family:"Digital7";
-    src:url("./Digital7-rg1mL.ttf");
+    src:url("fonts/Digital7-rg1mL.ttf");
 }
 
 body {
